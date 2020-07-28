@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Orbitron';
+}
+body{
+    background-color: black;
+}
+
+.container{
+    background-color: black;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.calculator{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 10px black;
+    /* background: linear-gradient(-160deg, rgb(202, 199, 199),rgb(27, 27, 27)); */
+    background-image: url(https://us.123rf.com/450wm/raisin7036/raisin70361506/raisin7036150600414/40936451-grey-plastic-material-seamless-and-texture.jpg?ver=6);
+}
+input{
+    text-align: right;
+    height: 2.5rem;
+    padding: 0.5rem;
+    font-size: large;
+    font-weight: bold;
+    width: 15.3rem;
+    margin-left: 0.2rem;
+    border: 1.5px solid black;
+    border-radius: 0.3rem;
+    background-color: rgb(201, 235, 208);
+    box-shadow: 0 0 5px black;
+    margin-bottom: 0.5rem;
+}
+button{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    background-color: rgb(209, 215, 218);
+    cursor: pointer;
+}
+button:hover{
+    transform: scale(1.03);
+}
+.C{
+    background-color: rgb(196, 54, 54);
+}
+.E{
+    background-color: rgb(48, 199, 116);
+}
+.O{
+    background-color: rgb(142, 182, 228);
+}
